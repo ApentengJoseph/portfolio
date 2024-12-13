@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -339,6 +339,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
+  height: 1;
   justify-content: space-around;
 }
 
@@ -367,7 +368,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 90;
 }
 
 .project-title {
